@@ -28,8 +28,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "prepare": "npm run clean && npm run package",
-    "package": "ng-packagr -p ng-package.json"
+    "package": "npm run build:pkg"
   },
   "private": true,
   "dependencies": {

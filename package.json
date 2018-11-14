@@ -28,7 +28,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "package": "npm run build:pkg"
+    "prepare": "npm run build:pkg"
   },
   "private": true,
   "dependencies": {

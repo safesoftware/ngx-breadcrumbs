@@ -22,7 +22,7 @@
     "ng": "ng",
     "start": "ng serve",
     "prepare": "npm run build:pkg",
-    "preinstall": "npm run build:pkg",
+    "install": "npm run build:pkg",
     "build": "ng build",
     "build:pkg": "rm -rf ./build && ng-packagr -p src/lib/mc-breadcrumbs/ng-package.json && cp {README.md,LICENSE} build/ngx-breadcrumbs",
     "link:pkg": "./link.sh",

@@ -6,6 +6,7 @@
 /out-tsc
 .ng_build
 /build
+/dist
 
 # dependencies
 /node_modules

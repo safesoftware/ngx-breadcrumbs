@@ -30,6 +30,9 @@
     "e2e": "ng e2e",
     "prepare": "npm run build:pkg"
   },
+  "files": [
+      "build"
+  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.0",

@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../build/ngx-breadcrumbs",
+  "lib": {
+    "umdModuleIds": {
+      "lodash.template": "lodash.template",
+      "lodash.templatesettings": "lodash.templatesettings"
+    },
+    "entryFile": "src/index.ts"
+  }
+}
